@@ -1,0 +1,37 @@
+
+.background {background-image: url("connectwork.png");}
+.background{background-color: beige;}
+.pagewidth {width: 960px}
+
+.header {background-color:#ffffff;
+}
+.alignleft{
+    float: left;
+    
+}
+
+.alignright{
+    float: right;
+    
+}
+
+.clear {clear: both;}
+
+.maincontent {background-color:#ffffff;
+ border: 5px solid #dddddd}
+
+
+.footer {background-color:#666666 }
+
+.teal {
+    color: #4aaaa5;
+}
+
+.teal2 {
+    background-color: #4aaaa5;
+}
+
+.whitetext {
+    color: #ffffff;
+}
+.headborder {border-bottom:#cccccc; border-width: 5px; border-style: solid; }
