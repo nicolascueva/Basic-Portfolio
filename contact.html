@@ -10,26 +10,37 @@
 </head>
 
 <body class="background pagewidth">
-
-        <section class="headborder header">
+<!--background template for whole page and width of whole page-->
+            
+    <section class="header"> <!--parameters for header box, 100% width-->
+                
+        <div class="contentwidth"> <!--width of content in box (960px)-->
         
-    
-         <h1 class="alignleft teal2 whitetext">Nicolas Cueva</h1>
-    
-            <div class="alignright">
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
+            <!--left name box floated left+ parameters-->
+            <div class="namebox">Nicolas Cueva
+                </div>
+            
+                    <ul> <!--list, all elements floated right-->
+                    
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="index.html">About</a></li>
+                    
+                    </ul>
+             
+                <div class="clear"> <!--clear the floats!-->
+                </div>
+                
             </div>
-         
-    
-         <div class="clear"></div>
+        
         </section>
 
 
-    <div class="maincontent">
+<!--Beginning of main content, content is 960px width-->
+    <div class="maincontent contentwidth">
 
-        <h2 class="teal">Contact</h2>
+        <h2 class="mainsectiontitle">Contact</h2> <!--title of main section content-->
+
 
         <form action="/action_page.php">
             Name<br>
@@ -40,9 +51,12 @@
             <input type="submit" class="teal2" value="Submit">  <!--Submit button needs to be below left-->
         </form>
 
-</div>
+    </div>
 
-<footer class="footer whitetext">Copyright</footer>
+<!--footer width is 100% to cover all bottom like the header, text centered-->
+    <footer class="footer">
+        Created by Nicolas Cueva
+   </footer>
     
 
 

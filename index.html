@@ -11,43 +11,49 @@
 </head>
 
 <body class="background pagewidth">
-
-    <section class="headborder header">
+<!--background template for whole page and width of whole page-->
     
+    <section class="header"> <!--parameters for header box, 100% width-->
+        
+        <div class="contentwidth"> <!--width of content in box (960px)-->
 
-     <h1 class="alignleft teal2 whitetext">Nicolas Cueva</h1>
-
-        <div class="alignright">
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </div>
+            <!--left name box floated left+ parameters-->
+            <div class="namebox">Nicolas Cueva
+            </div>
+    
+                <ul> <!--list, all elements floated right-->
+            
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="index.html">About</a></li>
+            
+                </ul>
      
+            <div class="clear"> <!--clear the floats!-->
+            </div>
+        
+        </div>
 
-     <div class="clear"></div>
     </section>
 
-     <div class="maincontent">
 
-    <h2 class="teal">About Me</h2>
+<!--Beginning of main content, content is 960px width-->
+     <div class="maincontent contentwidth">
 
-        
+        <h2 class="mainsectiontitle">About Me</h2> <!--title of main section content-->
 
-        <p><img src="assets/images/chase_pic.png" width="200px" height="200px" alt="My Photo" class="alignleft"/>first paragraph-csdvcsdvcsvbjsbvfsfvsvsvsvsvsvsvsvsvjhdsbvhjdbvjshbvshbdcshcvgsvgsbc shcbshbchsbchjsbchsbchjsb</p>
-        <div class="clear"></div>
-        <p>second paragraph- sdvfvsfvsfdsfdvfdsvsdfvdfsbvsdvdfsvdsfv</p>
-        <p>third paragraph- ddvdfsvdsfvsdvdsfvdsvdfsvdsfvdsfvdv</p>
+            <p class="paragraph"><img src="assets/images/chase_pic.png" width="200px" height="200px" alt="My Photo" class="photoleft"/>first paragraph- Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores iusto modi tempore nesciunt voluptas possimus quasi doloremque? Nisi, quaerat nobis fugit numquam quibusdam, assumenda, voluptatem sint possimus hic omnis porro. </p>
+                <div class="clear"></div>
+            <p class="paragraph">second paragraph- Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum atque magnam quaerat ullam impedit officia. Animi quasi, delectus ipsam recusandae, natus reiciendis incidunt excepturi magnam consectetur, dicta ex praesentium ipsum!</p>
+            <p class="paragraph">third paragraph- Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ducimus est atque illum? Accusamus labore perspiciatis iste iure laborum beatae, nihil quasi sit deserunt! Non enim magnam dolores officiis aspernatur.</p>
     
     </div>
 
-        <footer class="footer whitetext">Copyright</footer>
-    
-
-
-
-<!--Try using block display and flex block to organize the page with container tags-->
-
-<!--use divs before css to start block structure-->
+       
+<!--footer width is 100% to cover all bottom like the header, text centered-->
+    <footer class="footer">
+         Created by Nicolas Cueva
+    </footer>
 
 
 

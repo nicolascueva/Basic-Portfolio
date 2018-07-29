@@ -10,35 +10,50 @@
 </head>
 
 <body class="background pagewidth">
-
-        <section class="headborder header">
-        
-    
-         <h1 class="alignleft teal2 whitetext">Nicolas Cueva</h1>
-    
-            <div class="alignright">
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </div>
-         
-    
-         <div class="clear"></div>
-        </section>
-
-
-        <div class="maincontent">
-<h2 class="teal">Portfolio</h2>
-    
-    <img src="assets/images/doggo.jpeg" height= "200" width= "200" alt="image1"/>
-    <img src="assets/images/doggo.jpeg" height= "200" width= "200" alt="image2"/>
-    <img src="assets/images/doggo.jpeg" height= "200" width= "200" alt="image3"/>
-    <img src="assets/images/doggo.jpeg" height= "200" width= "200" alt="image4"/>
-    <img src="assets/images/doggo.jpeg" height= "200" width= "200" alt="image5"/>
-            </div>
-
+<!--background template for whole page and width of whole page-->
             
-            <footer class="footer whitetext">Copyright</footer>
+     <section class="header"> <!--parameters for header box, 100% width-->
+                
+        <div class="contentwidth"> <!--width of content in box (960px)-->
+        
+            <!--left name box floated left+ parameters-->
+            <div class="namebox">Nicolas Cueva
+                </div>
+            
+                    <ul> <!--list, all elements floated right-->
+                    
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="index.html">About</a></li>
+                    
+                    </ul>
+             
+            <div class="clear"> <!--clear the floats!-->
+            </div>
+                
+        </div>
+        
+    </section>
+
+
+<!--Beginning of main content, content is 960px width-->
+    <div class="maincontent contentwidth">
+
+        <h2 class="mainsectiontitle">Portfolio</h2> <!--title of main section content-->
+    
+    
+        <img src="assets/images/doggo.jpeg" height= "200" width= "200" alt="image1"/>
+        <img src="assets/images/doggo.jpeg" height= "200" width= "200" alt="image2"/>
+        <img src="assets/images/doggo.jpeg" height= "200" width= "200" alt="image3"/>
+        <img src="assets/images/doggo.jpeg" height= "200" width= "200" alt="image4"/>
+        <img src="assets/images/doggo.jpeg" height= "200" width= "200" alt="image5"/>
+
+    </div>
+
+<!--footer width is 100% to cover all bottom like the header, text centered-->
+    <footer class="footer">
+        Created by Nicolas Cueva
+   </footer>
 
 
 </body>
